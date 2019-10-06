@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void signupbtn_onClick(View v) {
-        Intent signup_intent = new Intent(this,LoginActivity.class);
+        Intent signup_intent = new Intent(this,Signupactivity.class);
         startActivity(signup_intent);
     }
 
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void logoutbtn_onClick(View v) {
-        Intent logout_intent = new Intent(this,LoginActivity.class);
+        Intent logout_intent = new Intent(this,LogoutActivity.class);
         startActivity(logout_intent);
     }
 
