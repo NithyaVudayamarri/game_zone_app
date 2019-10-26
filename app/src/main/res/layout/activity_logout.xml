@@ -36,7 +36,7 @@
         android:id="@+id/login_again"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="to login again"
+        android:text="click to login again"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.563"
