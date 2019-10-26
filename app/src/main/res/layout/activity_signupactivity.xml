@@ -128,14 +128,18 @@
         app:layout_constraintVertical_bias="0.59" />
 
     <EditText
-        android:id="@+id/editText13"
+        android:id="@+id/addressline2ET"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="AddressLine2"
         android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="465dp" />
+        app:layout_constraintBottom_toTopOf="@+id/editText14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/address1ET"
+        app:layout_constraintVertical_bias="0.405" />
 
     <EditText
         android:id="@+id/editText14"
