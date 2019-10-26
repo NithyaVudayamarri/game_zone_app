@@ -99,12 +99,12 @@
         tools:layout_editor_absoluteX="16dp" />
 
     <EditText
-        android:id="@+id/editText11"
+        android:id="@+id/genderET"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Gender"
         android:inputType="textPersonName"
-        android:text="Name"
         tools:layout_editor_absoluteX="20dp"
         tools:layout_editor_absoluteY="348dp" />
 
