@@ -40,9 +40,11 @@
         android:hint="Email address"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.29"
-        tools:layout_editor_absoluteX="16dp" />
+        app:layout_constraintVertical_bias="0.29" />
 
     <EditText
         android:id="@+id/editText5"
@@ -53,7 +55,7 @@
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.368"
+        app:layout_constraintVertical_bias="0.377"
         tools:layout_editor_absoluteX="16dp" />
 
     <EditText
@@ -89,7 +91,9 @@
         android:ems="10"
         android:hint="MobileNumber"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="377dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549"
+        tools:layout_editor_absoluteX="16dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
