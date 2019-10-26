@@ -45,6 +45,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.173" />
+
     <EditText
         android:id="@+id/Re-typeemail_addressET"
         android:layout_width="wrap_content"
@@ -121,10 +122,10 @@
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.08"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.415" />
+        app:layout_constraintVertical_bias="0.434" />
 
     <EditText
         android:id="@+id/address1ET"
@@ -147,7 +148,7 @@
         android:ems="10"
         android:hint="AddressLine2"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/editText14"
+        app:layout_constraintBottom_toTopOf="@+id/stateET"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.131"
         app:layout_constraintStart_toStartOf="parent"
@@ -155,13 +156,17 @@
         app:layout_constraintVertical_bias="0.405" />
 
     <EditText
-        android:id="@+id/editText14"
+        android:id="@+id/stateET"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="state"
         android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="532dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.769" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
