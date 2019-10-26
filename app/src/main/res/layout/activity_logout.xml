@@ -24,7 +24,7 @@
         android:layout_height="23dp"
         android:background="@android:color/white"
         android:onClick="login_again_btn_onClick"
-        android:text="click here"
+        android:text="click here to Logout"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.273"
