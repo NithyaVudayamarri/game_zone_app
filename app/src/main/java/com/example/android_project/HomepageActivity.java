@@ -24,4 +24,9 @@ public class HomepageActivity extends AppCompatActivity {
         startActivity(two_player_intent);
     }
 
+    public void threePlayerBtnAction(View v) {
+        Intent three_player_intent = new Intent(this, ThreePlayerGameActivity.class);
+        startActivity(three_player_intent);
+    }
+
 }
