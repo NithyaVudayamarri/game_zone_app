@@ -39,7 +39,8 @@ public class Signupactivity extends AppCompatActivity {
         ed.commit();
         Toast.makeText(getApplicationContext(), "Registered successfully!", Toast.LENGTH_SHORT).show();
 
-
+        Intent home_intent = new Intent(this, HomepageActivity.class);
+        startActivity(home_intent);
 
     }
 }
