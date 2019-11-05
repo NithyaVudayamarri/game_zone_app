@@ -23,8 +23,9 @@
         android:layout_width="85dp"
         android:layout_height="23dp"
         android:background="@android:color/white"
+        android:gravity="center"
         android:onClick="login_again_btn_onClick"
-        android:text="click here to Logout"
+        android:text="click here"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.273"
@@ -36,12 +37,12 @@
         android:id="@+id/login_again"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="click to login again"
+        android:text=" to login again"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintHorizontal_bias="0.657"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.127" />
+        app:layout_constraintVertical_bias="0.126" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
