@@ -19,4 +19,9 @@ public class HomepageActivity extends AppCompatActivity {
         startActivity(single_player_intent);
     }
 
+    public void twoPlayerBtnAction(View v) {
+        Intent two_player_intent = new Intent(this, TwoPlayerGameActivity.class);
+        startActivity(two_player_intent);
+    }
+
 }
