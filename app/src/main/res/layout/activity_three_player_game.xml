@@ -7,20 +7,22 @@
     tools:context=".ThreePlayerGameActivity">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/headingTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="THREE PLAYER GAME"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.441"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.119" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/playBTN"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="playBtnAction"
         android:text="Click to Play the Game"
         android:textColor="@color/colorPrimaryDark"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -28,6 +30,17 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/progressTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.584" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
