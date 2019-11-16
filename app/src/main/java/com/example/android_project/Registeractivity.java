@@ -41,7 +41,32 @@ public class Registeractivity extends AppCompatActivity {
         register_btn = findViewById(R.id.registerBTN);
         login_again_tv = findViewById(R.id.loginHereTV);
 
+        firebaseAuth = FirebaseAuth.getInstance();
 
+        register_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (validate()) {
+                    String user_pwd = password_et.getText().toString();
+                    String user_email = email_et.getText().toString();
+                    firebaseAuth.createUserWithEmailAndPassword(user_email, user_pwd).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                        @Override
+                        public void onComplete(@NonNull Task<AuthResult> task) {
+                            if(task.isSuccessful()) {
+                                Toast.makeText(Registeractivity.this, "Registration successful", Toast.LENGTH_SHORT).show();
+                                Intent homepage_intent = new Intent(Registeractivity.this, HomepageActivity.class);
+                                startActivity(homepage_intent);
+                            }
+                            else {
+                                Toast.makeText(Registeractivity.this, "Registration failed", Toast.LENGTH_SHORT).show();
+                            }
+
+                        }
+                    });
+                }
+
+            }
+        });
 
         login_again_tv.setOnClickListener(new View.OnClickListener() {
             @Override
