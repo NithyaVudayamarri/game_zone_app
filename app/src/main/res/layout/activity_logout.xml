@@ -30,7 +30,7 @@
         android:layout_marginTop="10dp" >
 
         <TextView
-            android:id="@+id/clickHereTV"
+            android:id="@+id/loginAgainTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Click here"
@@ -38,7 +38,7 @@
             android:textColor="#3F51B5"/>
 
         <TextView
-            android:id="@+id/loginAgainTV"
+            android:id="@+id/clickHereTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" to login again."
