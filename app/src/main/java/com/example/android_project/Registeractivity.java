@@ -10,12 +10,12 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class Signupactivity extends AppCompatActivity {
+public class Registeractivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signupactivity);
+        setContentView(R.layout.activity_register);
     }
 
     public void signBTNAction(View v) {
