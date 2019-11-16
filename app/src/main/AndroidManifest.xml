@@ -13,6 +13,9 @@
         <activity android:name=".LoginActivity"></activity>
         <activity android:name=".Registeractivity"></activity>
         <activity android:name=".LogoutActivity"></activity>
+        <activity android:name=".SinglePlayerGameActivity"></activity>
+        <activity android:name=".ThreePlayerGameActivity"></activity>
+        <activity android:name=".TwoPlayerGameActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
