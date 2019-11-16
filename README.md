@@ -14,3 +14,10 @@ A person can login to the app, select one of the three available games, play the
 
 ### Project GitHub Repository Link
 [https://github.com/Manoj1028/game_zone_app]
+
+
+### Team Members Names
+- Naga Sai Manoj Goppisetty
+- Priyanka Galla
+- Nithya Vudayamarri
+
