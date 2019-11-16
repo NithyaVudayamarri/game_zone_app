@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1070617514161",
+    "firebase_url": "https://gamezoneappregisterdetails.firebaseio.com",
+    "project_id": "gamezoneappregisterdetails",
+    "storage_bucket": "gamezoneappregisterdetails.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070617514161:android:b91063a46605aee1dad290",
+        "android_client_info": {
+          "package_name": "com.example.android_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070617514161-bgakdg911l3ijq6uj7i0jo16rsgogtsn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa3B-aPnc6a1i9Sb0h1WzwreYZeLjVmJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070617514161-bgakdg911l3ijq6uj7i0jo16rsgogtsn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
