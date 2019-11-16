@@ -12,6 +12,10 @@ The user can select one of these three games to play
 A person can login to the app, select one of the three available games, play the game and view his/her score, and the high score among all the games he/she played during that particular session.
 
 
+### App logo
+![logo](https://github.com/Manoj1028/game_zone_app/blob/master/app/src/main/res/drawable/logo.png "logo.png")
+
+
 ### Project GitHub Repository Link
 [https://github.com/Manoj1028/game_zone_app](https://github.com/Manoj1028/game_zone_app)
 
